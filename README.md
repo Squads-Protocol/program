@@ -1,4 +1,4 @@
-[]
+![Squads](https://github.com/squads-dapp/program/blob/main/logo.png)
 # squads-program
 The Squads on-chain program
 
@@ -65,3 +65,9 @@ description: 26 bytes
 random_id: 10 bytes
 members_num: value of initial owner keys added
 ```
+
+## Security and Liability
+This software is WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+## License
+This software is released under LGPL-3.0
