@@ -71,3 +71,5 @@ This software is WITHOUT ANY WARRANTY; without even the implied warranty of MERC
 
 ## License
 This software is released under LGPL-3.0
+
+Software has been audited by Neodyme
