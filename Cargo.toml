@@ -3,6 +3,7 @@ name = "squads-program"
 version = "2.0.1"
 authors = ["Sean Lars Ganser <sean@sqds.io>", "Bastien Guillaumat <bastien@sqds.io>"]
 edition = "2018"
+license = "LGPL-3.0"
 
 [dependencies]
 borsh = "0.9.1"
