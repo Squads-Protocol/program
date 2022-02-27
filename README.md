@@ -3,13 +3,13 @@
 The Squads on-chain program
 
 ## Overview
-Squads is an on-chain program catered to organizations to let members manage assets, create proposals, and more. There are two types of Squads: Teams and Multisig. 
+Squads is an on-chain program that allows team to manage digital assets together, create proposals, and more. There are two types of Squads that can be created at the moment: Teams and Multisig. 
 
-## Team Coordinated
-A Team Squad is a type of DAO, in which members are minted tokens allocated by the creator or team. The minted tokens are locked into a PDA assigned to a member. When voting on a proposal, a user's vote weight is determined by the amount of tokens they have in their respective PDA account. The tokens are illiquid (for now), and members can vote to mint more tokens to a Squad member if they choose to.
+## Teams
+Teams is a type of Squad, in which members are minted tokens allocated by the creator of the team. The minted tokens are locked into a PDA assigned to a member. When voting on a proposal, a user's vote weight is determined by the amount of tokens they have in their respective PDA account. The tokens are illiquid (for now), and members can vote to mint more tokens to a Squad member if they choose to. Teams allows for complex voting dynamics within a Squad.
 
 ## Multisig
-A Multisig Squad is a simplified version of a Squad. Members are not minted tokens, and the functionality centers around vault functionality. Members can add or remove public keys that are required for withdrawing from the vault, and members can also vote to adjust the signing threshold.
+In a Multisig Squad, members are not minted tokens, and the functionality centers around controlling the Vault. Members can add or remove public keys that are able to control the Vault, and members can also vote to adjust the signing threshold.
 
 ## Squad Accounts
 Squads have an address (PDA), which is seeded by the public key which created it and a random string, both saved to the Squads state account to be used for derivation when needed for signing. The squad vault is also a PDA which is seeded by the Squad PDA and the string "!squadsol". The vault PDA can be used for SOL, or as a seed to derive an ATA for other tokens. Any proposal which acts to withdraw SOL or other tokens from the vault must by signed by the vault PDA (referred to as 
@@ -72,4 +72,4 @@ This software is WITHOUT ANY WARRANTY; without even the implied warranty of MERC
 ## License
 This software is released under LGPL-3.0
 
-Software has been audited by Neodyme
+Software has been audited by Neodyme (report to be made available shortly).
