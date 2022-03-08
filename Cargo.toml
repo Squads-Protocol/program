@@ -3,7 +3,13 @@ name = "squads-program"
 version = "2.0.1"
 authors = ["Sean Lars Ganser <sean@sqds.io>", "Bastien Guillaumat <bastien@sqds.io>"]
 edition = "2018"
+description = "Squads is an on-chain program that allows team to manage digital assets together, create proposals, and more."
+homepage = "https://squads.so"
+repository = "https://github.com/squads-dapp/program"
 license = "LGPL-3.0"
+keywords = ["squads", "solana", "program", "smart-contract", "multisig"]
+readme = "README.md"
+
 
 [dependencies]
 borsh = "0.9.1"
@@ -18,6 +24,7 @@ num-derive = "0.3"
 num-traits = "0.2"
 
 [features]
+no-entrypoint = []
 test-bpf = []
 
 [dev-dependencies]
