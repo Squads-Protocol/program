@@ -1,5 +1,5 @@
 ![Squads](https://github.com/squads-dapp/program/blob/main/logo.png)
-# squads V2 program
+# Squads V2 Program
 Squads V2 on-chain program
 
 ## Overview
